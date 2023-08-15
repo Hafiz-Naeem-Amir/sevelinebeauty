@@ -132,6 +132,11 @@
 @media screen and (max-width:425px) {
 
           /* navebar section  */
+          header {
+          
+                    margin: 0rem auto;
+                   
+          }
           nav {
                     display: flex;
                     flex-direction: column;
@@ -176,6 +181,18 @@
                     width: 95%;
                     gap: 0rem;
 
+          }
+          .footer footer{
+                    display: flex;
+                    flex-direction: column-reverse;
+                   
+          }
+          .footer footer i{
+                    font-size: 1.15rem;
+                    padding-bottom: 1rem;
+          }
+          .footer footer p{
+                    font-size: 1.15rem;
           }
 
 }
