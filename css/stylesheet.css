@@ -1,0 +1,254 @@
+* {
+          margin: 0px;
+          padding: 0px;
+          border: none;
+          overflow-x: hidden;
+          scroll-behavior: smooth;
+}
+
+html {
+          font-size: 65%;
+}
+
+.h1 {
+          font-size: 3.7rem;
+          color: #5c0bb8;
+          text-align: center;
+          margin: 1.3rem 0;
+}
+
+.h2 {
+          font-size: 2rem;
+}
+
+.h3 {
+          font-size: 1rem;
+          margin: 1rem 0;
+}
+
+p {
+          font-size: 1.7rem;
+          text-align: center;
+          text-align: justify;
+}
+
+#input {
+          padding: rem;
+}
+
+#btn {
+          padding: 2rem;
+          border: 2px solid green;
+}
+
+:root {
+          --bk-color: #461974;
+          --p-padding: 1rem;
+          --ancher-color: #fff;
+          --p-color: #fff;
+          --color: var(--ancher-color);
+
+}
+
+/* styleing navebar  */
+header {
+          max-width: 100%;
+          margin: 2rem auto;
+          background: var(--bk-color);
+          padding: var(--p-padding);
+}
+
+.navbar {
+          padding: .5rem;
+          display: flex;
+          justify-content: space-between;
+          color: var(--ancher-color);
+          align-items: center;
+          font-size: 1.3rem;
+          cursor: pointer;
+
+}
+
+.logo {
+          display: none;
+}
+
+.logo i {
+          position: relative;
+          bottom: 6rem;
+          font-size: 1.5rem;
+}
+
+.navbar a {
+          color: var(--ancher-color);
+          text-decoration: none;
+          font-size: 1.3rem;
+}
+
+.navbar i {
+          padding-left: 1.4rem;
+}
+
+/* about section styling  */
+.about-container {
+          width: 100%;
+          display: flex;
+
+
+}
+
+.about-contant {
+          padding: 9rem auto;
+          box-sizing: border-box;
+          padding: 4rem;
+}
+
+.about-video {
+          width: 50%;
+          height: 40%;
+          box-sizing: border-box;
+          padding: 4rem;
+
+}
+
+.about-contant {
+          width: 50%;
+}
+
+/* services section style  */
+.img-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          padding: .2rem auto;
+          max-width: 95%;
+          margin: 0rem auto;
+}
+
+.services-img {
+          position: relative;
+          /* width: 21%; */
+          /* height: 50%; */
+          margin: 2rem auto;
+          gap: 1rem;
+
+}
+
+.img-text {
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #372E2B;
+          opacity: .8;
+          transition: 3s ease;
+
+}
+
+.img-text h1 {
+          position: relative;
+          top: 49%;
+          bottom: 49%;
+          text-align: center;
+          color: white;
+          font-size: 3.7rem;
+          font-family: sans-serif;
+          opacity: 1;
+}
+
+.services-img :hover.img-text {
+          transition: .4s ease-in-out;
+          opacity: 0;
+
+}
+
+/* gellary section  */
+.gallery-imags {
+          width: 95%;
+          margin: 1rem auto;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* footer setion style  */
+.footer {
+          background: var(--bk-color);
+}
+
+.widget-link {
+          width: 90%;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          gap: 3rem;
+          margin: 1rem auto;
+          color: var(--ancher-color);
+
+}
+
+.link {
+          box-sizing: border-box;
+          padding: 1.2rem;
+          margin-top: 8rem;
+          margin-bottom: 8rem;
+
+          .link .h2 {
+                    padding-top: 2.4rem;
+                    padding-bottom: 2.4rem;
+          }
+
+          .ancher a {
+                    cursor: pointer;
+          }
+
+          .ancher .imag-1 {
+                    cursor: pointer;
+          }
+}
+
+.link .ancher {
+          display: flex;
+          flex-direction: column;
+          padding-top: 1rem;
+}
+
+.link .ancher a {
+          text-decoration: none;
+          color: var(--ancher-color);
+          line-height: 1.5;
+          font-size: 1.4rem;
+}
+
+.link .ancher input {
+          padding: 1rem;
+          width: 110px;
+}
+
+.link .ancher .btn {
+          margin-top: 1.5rem;
+          cursor: pointer;
+          padding: 1.1rem;
+          border: 5px sloid rgba(112, 86, 230, 0.788);
+          background-color: rgba(112, 86, 230, 0.788);
+          color: var(--ancher-color);
+}
+
+/* footer  */
+.footer {
+          border: 1px solid rgba(112, 86, 230, 0.788);
+}
+
+footer {
+          margin: 1rem auto;
+          width: 90%;
+          padding: 1.5rem;
+          display: flex;
+          justify-content: space-between;
+          color: #fff;
+}
+
+.social-link i {
+          padding-left: 1.4rem;
+          font-size: 1.3rem;
+
+}

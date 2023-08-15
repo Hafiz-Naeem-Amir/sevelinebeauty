@@ -1,0 +1,181 @@
+@media screen and (max-width:1277px) {
+
+          /* services section  */
+          .img-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+          }
+}
+
+@media screen and (max-width:1070px)and (min-width:774px) {
+
+          /* gellary section  */
+          .gallery-imags {
+                    grid-template-columns: 1fr 1fr 1fr;
+          }
+}
+
+@media screen and (max-width:957px) {
+
+          /* services section  */
+          .img-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 1rem;
+          }
+}
+
+@media screen and (max-width:883px) {
+          .about-container {
+                    flex-direction: column;
+          }
+
+          .about-video {
+                    width: 100%;
+          }
+
+          .about-contant {
+                    width: 100%;
+          }
+}
+
+@media screen and (max-width:768px) {
+
+          /* services section  */
+          .img-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+          }
+
+          /* gellary section  */
+          .gallery-imags {
+                    grid-template-columns: 1fr 1fr;
+          }
+
+          .footer .widget-link {
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 1rem;
+          }
+
+          .footer .social-link,
+          p {
+
+                    font-size: 1.2rem;
+          }
+}
+
+@media screen and (max-width:640px) {
+
+          /* services section  */
+          .img-container {
+                    display: grid;
+                    grid-template-columns: 1fr;
+          }
+
+          .footer .widget-link {
+                    grid-template-columns: 1fr 1fr;
+                    gap: 1rem;
+          }
+
+          .link {
+                    margin-top: 0rem;
+                    margin-bottom: 0rem;
+          }
+
+}
+
+@media screen and (min-width:100px)and(max-width:676px) {
+          video {
+                    /* height: 10% */
+          }
+
+          /* services section  */
+          .img-text h1 {
+                    font-size: 2.5rem;
+          }
+}
+
+@media screen and (max-width:562px) {
+          .footer .widget-link {
+                    grid-template-columns: 1fr;
+                    gap: 1rem;
+
+                    margin: 1rem auto;
+          }
+
+          .link {
+                    margin-top: 0rem;
+                    margin-bottom: 0rem;
+                    width: 100%;
+          }
+
+          .link .h2 {
+                    font-size: 1.7rem;
+                    padding-top: .7rem;
+                    padding-bottom: .7rem;
+          }
+
+          .footer .social-link,
+          p {
+
+                    font-size: 1rem;
+          }
+}
+
+@media screen and (max-width:478px) {
+          footer {
+                    flex-direction: column-reverse;
+          }
+
+}
+
+@media screen and (max-width:425px) {
+
+          /* navebar section  */
+          nav {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+          }
+
+          .h1 {
+                    font-size: 2.5rem;
+                    margin: 1rem;
+          }
+
+          p {
+                    font-size: 1.3rem;
+
+          }
+
+          .logo {
+                    display: block;
+          }
+
+          /* gallery section  */
+          .gellary .h1 {
+                    font-size: 2.3rem;
+                    margin: 1rem auto;
+          }
+
+          .gallery-imags {
+                    display: grid;
+                    grid-template-columns: 1fr;
+
+          }
+
+          .gallery-imags img {
+                    width: 95%;
+                    margin: 1rem auto;
+          }
+          video {
+                    height: 10%
+          }
+          .footer .widget-link {
+                    grid-template-columns: 1fr;
+                    width: 95%;
+                    gap: 0rem;
+
+          }
+
+}
